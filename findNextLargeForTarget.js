@@ -1,5 +1,5 @@
-a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-target = 3.5
+let a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+let target = 3.5
 function search(nums, start, end, target) {
     let index = start + Math.floor((end - start) / 2);
     console.log(index)
