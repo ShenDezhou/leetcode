@@ -110,6 +110,7 @@ function Director(file) {
 	for (let line of file) {
 		var fields = line.split(",");
 		switch (fields[1]) {
+
 		case "price":
 			head.handleMessage(PriceBuilder(line));
 			break
